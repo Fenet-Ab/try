@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body p{
+    font-size: 16px;
+   font-family:  'Roboto', sans-serif;
+ 
+}
+/* below there is header style for index.html */
+header{
+   background-color: rgb(58, 54, 54);
+   display: flex;
+   flex-direction: column; 
+   text-align: left;
+  
+   
+}
+ header h1{
+    margin-left: 340px; 
+   
+ }  
+
+ header p{
+    text-align: center;
+    color: aliceblue;
+    margin-left: 180px;
+    font-size: 1.5rem;
+    padding-top: 40px;
+ }
+
+.word1{
+    color: rgb(234, 123, 82);
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.word2{
+    color: aliceblue;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-left: 350px;
+    
+ 
+   
+}
+nav ul li{
+    list-style: none;
+   padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+nav ul li a{
+   
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color:rgb(121, 192, 15);
+    border: 1px solid rgb(121, 192, 15);
+    border-bottom-left-radius: 0.5em;
+    border-width:15px ;
+   
+    font-weight:bolder;
+    color: aliceblue;
+   
+
+}
+nav ul li a:hover{
+    background-color:gray ;
+    border: 1px solid gray;
+    border-width:15px ;
+    border-bottom-left-radius: 0.5em;
+    
+}
+nav ul li a.active{
+    color: rgb(208, 85, 85);
+  } 
+#home{
+    background-color:rgb(221, 109, 69);
+    border: 1px solid rgb(221, 109, 69);
+    border-width:15px ;
+    border-bottom-left-radius: 0.5em;
+   
+    
+
+}
+/* main index.html style */
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   position: relative;
+    
+    
+  }
+  .left,.mid,.side-menu{
+    width: 310px;
+    height: 300px;
+  
+ }
+  .main-content h2{
+    color: rgb(121, 192, 15);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  .main-content a{
+    color:rgb(121, 192, 15);
+
+  }
+
+  .main-content img{
+    border: 2px solid rgb(200, 199, 199);
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  .left{
+    margin-left: 200px;
+  }
+  .left,.mid{
+    margin-right: 40px;
+  }
+  .mid{
+    margin-right: 50px;
+  }
+ 
+ .top-bottom{
+    margin-bottom: 20px;
+   
+ }
+ .bold{
+    font-weight: bold;
+ }
+ 
+ #section2{
+    margin-top: 80px;
+ }
+ .link-p{
+    margin-top: 40px;
+ }
+ .link-p a:nth-child(1){
+    color: rgb(216, 85, 85);
+ }
+ .sp{
+    color: rgb(97, 94, 94);
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }   
+ .contrary,.template{
+    width: 310px;
+    height: 300px;
+    margin-bottom: 440px;
+    margin-top: 180px;
+    
+    
+ }
+ .contrary{
+    margin-left: -160px;
+    margin-right: 40px;
+    
+ }
+ /* index.html foooter style */
+ footer{
+    background-color:rgb(58, 54, 54);
+    color: white;
+   margin-top: 120px;
+ }
+.about{
+    width: 400px;
+    margin-left: 60px;
+    margin-right: 45px;
+    margin-bottom: 60px;
+   
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-left:  240px;
+    
+}
+.footer-img{
+    margin-left: 10px;
+}
+.footer-img img{
+    width: 80px;
+    height: 80px;
+   padding: 5px;
+}
+
+.about img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+   
+}
+
+#footer h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.right-most-footer .bottom{
+    margin-top: 30px;
+}
+#footer a{
+   color: rgb(121, 192, 15);
+}
+.footer-last ul{
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+}
+.footer-last ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.last-footer{
+   
+    display: flex;
+    justify-content: center;
+   background-color: rgb(41, 41, 41);
+    padding: 40px;
+}
+.last-footer p{
+    margin-left:300px ;
+}
+
+.last-footer .green{
+    color: rgb(121, 192, 15);
+  } 
+  .right-most-footer{
+    width:300px ;
+  }
+    
+   
+
+ 
